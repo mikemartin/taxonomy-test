@@ -1,0 +1,18 @@
+title: Events
+sites:
+  - en
+  - de
+  - fr
+propagate: true
+template: events/show
+layout: layout
+mount: 190c4298-60a9-42e5-bb95-e1c7ad3705c7
+taxonomies:
+  - tag
+revisions: false
+route: '/{mount}/{slug}'
+date: true
+sort_dir: asc
+date_behavior:
+  past: unlisted
+  future: public
